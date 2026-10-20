@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jowhara Accessories | Handcrafted Gold Jewelry</title>
+<meta name="description" content="Timeless, handcrafted jewelry from Jowhara Accessories. Shop necklaces, earrings, rings, and bracelets designed to shine every day.">
+<link rel="canonical" href="https://jowharaaccessories.com/">
+
+<!-- Open Graph / Social Sharing -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jowharaaccessories.com/">
+<meta property="og:title" content="Jowhara Accessories | Handcrafted Gold Jewelry">
+<meta property="og:description" content="Timeless, handcrafted jewelry designed to shine every day. Shop necklaces, earrings, rings, and bracelets.">
+<meta property="og:site_name" content="Jowhara Accessories">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jowhara Accessories | Handcrafted Gold Jewelry">
+<meta name="twitter:description" content="Timeless, handcrafted jewelry designed to shine every day.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Announcement bar -->
+  <div class="announce">Free shipping on orders over $75 &nbsp;•&nbsp; Handcrafted with love</div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">Jowhara <span>Accessories</span></a>
+
+      <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#shop">Shop</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-icons">
+        <button class="icon-btn" id="cart-btn" aria-label="Cart">
+          🛍 <span class="cart-count" id="cart-count">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <p class="eyebrow">New Collection — 2026</p>
+      <h1>Timeless Jewelry,<br>Made to Shine</h1>
+      <p class="hero-sub">Elegant, handcrafted accessories designed to elevate every moment. Discover pieces that feel as good as they look.</p>
+      <div class="hero-cta">
+        <a href="#shop" class="btn btn-primary">Shop the Collection</a>
+        <a href="#about" class="btn btn-ghost">Our Story</a>
+      </div>
+    </div>
+    <div class="hero-glow"></div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-image">
+        <div class="about-frame">✦</div>
+      </div>
+      <div class="about-text">
+        <p class="eyebrow">About Us</p>
+        <h2>Crafted with Care, Worn with Pride</h2>
+        <p>Jowhara Accessories was founded on a simple belief: beautiful jewelry shouldn't come with compromise. Every piece we create blends timeless design with quality materials, so you can shine with confidence — every single day.</p>
+        <div class="about-stats">
+          <div>
+            <strong>10k+</strong>
+            <span>Happy Customers</span>
+          </div>
+          <div>
+            <strong>250+</strong>
+            <span>Unique Designs</span>
+          </div>
+          <div>
+            <strong>5★</strong>
+            <span>Average Rating</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop -->
+  <section class="shop" id="shop">
+    <div class="container">
+      <p class="eyebrow center">Our Collection</p>
+      <h2 class="center">Best Selling Pieces</h2>
+      <p class="section-sub center">Edit the items below in <code>js/script.js</code> to add your own products, prices, and images.</p>
+
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="necklaces">Necklaces</button>
+        <button class="filter-btn" data-filter="earrings">Earrings</button>
+        <button class="filter-btn" data-filter="rings">Rings</button>
+        <button class="filter-btn" data-filter="bracelets">Bracelets</button>
+      </div>
+
+      <div class="product-grid" id="product-grid">
+        <!-- Products injected by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <p class="eyebrow center">Testimonials</p>
+      <h2 class="center">Loved by Our Customers</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <p>"The quality is incredible for the price. My necklace gets compliments every time I wear it!"</p>
+          <span class="t-name">— Sarah M.</span>
+        </div>
+        <div class="testimonial-card">
+          <p>"Beautiful packaging, fast shipping, and the earrings are even prettier in person."</p>
+          <span class="t-name">— Amina K.</span>
+        </div>
+        <div class="testimonial-card">
+          <p>"My go-to shop for gifts. Jowhara never disappoints."</p>
+          <span class="t-name">— Layla R.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <h2>Join the Jowhara Circle</h2>
+      <p>Sign up for early access to new drops and exclusive offers.</p>
+      <form id="newsletter-form" class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <p class="form-msg" id="newsletter-msg"></p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container contact-inner">
+      <div class="contact-text">
+        <p class="eyebrow">Get In Touch</p>
+        <h2>We'd Love to Hear From You</h2>
+        <p>Questions about an order, a custom piece, or just want to say hi? Send us a message.</p>
+        <ul class="contact-info">
+          <li>📍 123 Gold Street, Suite 400, Your City</li>
+          <li>✉️ hello@jowharaaccessories.com</li>
+          <li>📞 (555) 123-4567</li>
+        </ul>
+      </div>
+      <form id="contact-form" class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-msg" id="contact-msg"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <a href="#home" class="logo footer-logo">Jowhara <span>Accessories</span></a>
+        <p>Timeless jewelry, made to shine.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Shop</h4>
+        <a href="#shop">Necklaces</a>
+        <a href="#shop">Earrings</a>
+        <a href="#shop">Rings</a>
+        <a href="#shop">Bracelets</a>
+      </div>
+      <div class="footer-links">
+        <h4>Company</h4>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#">Shipping & Returns</a>
+        <a href="#">FAQ</a>
+      </div>
+      <div class="footer-links">
+        <h4>Follow</h4>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">Pinterest</a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 Jowhara Accessories. All rights reserved.</p>
+  </footer>
+
+  <!-- Cart Drawer -->
+  <div class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3>Your Bag</h3>
+      <button id="close-cart">✕</button>
+    </div>
+    <div class="cart-items" id="cart-items">
+      <p class="cart-empty">Your bag is empty.</p>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Total</span>
+        <span id="cart-total-price">$0.00</span>
+      </div>
+      <button class="btn btn-primary cart-checkout">Checkout</button>
+    </div>
+  </div>
+  <div class="cart-overlay" id="cart-overlay"></div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
